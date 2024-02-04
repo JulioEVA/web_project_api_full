@@ -10,6 +10,7 @@ function AddPlacePopup({ isOpen, onClose, onAddPlaceSubmit }) {
    */
   function handleSubmit(e, title) {
     e.preventDefault();
+    if (!inputRef.current.value || !title) return;
     onAddPlaceSubmit({ name: title, link: inputRef.current.value });
   }
 

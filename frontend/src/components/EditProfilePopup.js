@@ -27,6 +27,8 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser }) {
   function handleSubmit(e, name) {
     e.preventDefault();
 
+    if (!name || !description) return;
+
     // Passes the values of the managed components to the external controller.
     onUpdateUser({
       name,
