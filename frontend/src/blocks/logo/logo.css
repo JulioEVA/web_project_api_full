@@ -1,0 +1,9 @@
+.logo {
+  object-fit: contain;
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    padding-left: 27px;
+  }
+}

@@ -1,0 +1,4 @@
+.dialog-container_is-visible {
+  visibility: visible;
+  background: rgba(0, 0, 0, 0.5);
+}

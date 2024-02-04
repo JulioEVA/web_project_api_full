@@ -1,0 +1,7 @@
+.form-popup__container {
+  display: flex;
+  height: 330px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}

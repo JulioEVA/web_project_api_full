@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link:hover {
+  opacity: 0.6;
+}

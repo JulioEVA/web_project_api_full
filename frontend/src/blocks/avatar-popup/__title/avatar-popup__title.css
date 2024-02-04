@@ -1,0 +1,10 @@
+.avatar-popup__title {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  align-self: start;
+  padding-left: 36px;
+}

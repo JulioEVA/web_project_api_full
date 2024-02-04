@@ -1,0 +1,13 @@
+.confirmation-popup {
+  width: 430px;
+  height: 181px;
+
+  border-radius: 10px;
+  background: #fff;
+}
+
+.confirmation-popup[open] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

@@ -1,0 +1,11 @@
+.edit-button {
+  padding-top: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .edit-button {
+    padding: 0;
+  }
+}

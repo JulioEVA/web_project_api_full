@@ -1,0 +1,29 @@
+.input {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  width: 358px;
+  height: 30px;
+
+  border: 0;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.input:valid {
+  border-bottom: 1px solid green;
+}
+
+.input:invalid {
+  border-bottom: 1px solid red;
+}
+
+@media screen and (max-width: 900px) {
+  .input {
+    width: 238px;
+    height: 26px;
+  }
+}
